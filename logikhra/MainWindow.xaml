@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:logikhra"
         mc:Ignorable="d"
         Title="MainWindow" Height="1200" Width="900" ResizeMode="NoResize">
-    <Grid>
+    <Grid Margin="0,0,0,72">
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition />
@@ -29,50 +29,50 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <Ellipse Name="Ellipse_0_0" Grid.Row="0" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_0_1" Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_0_2" Grid.Row="0" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_0_3" Grid.Row="0" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
+        <Ellipse Name="Ellipse_0_0" Grid.Row="0" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_0_1" Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_0_2" Grid.Row="0" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_0_3" Grid.Row="0" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
-        <Ellipse Name="Ellipse_1_0" Grid.Row="1" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_1_1" Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_1_2" Grid.Row="1" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_1_3" Grid.Row="1" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
+        <Ellipse Name="Ellipse_1_0" Grid.Row="1" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_1_1" Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_1_2" Grid.Row="1" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_1_3" Grid.Row="1" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
-        <Ellipse Name="Ellipse_2_0" Grid.Row="2" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_2_1" Grid.Row="2" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_2_2" Grid.Row="2" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_2_3" Grid.Row="2" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
+        <Ellipse Name="Ellipse_2_0" Grid.Row="2" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_2_1" Grid.Row="2" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_2_2" Grid.Row="2" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_2_3" Grid.Row="2" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
-        <Ellipse Name="Ellipse_3_0" Grid.Row="3" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_3_1" Grid.Row="3" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_3_2" Grid.Row="3" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Name="Ellipse_3_3" Grid.Row="3" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
+        <Ellipse Name="Ellipse_3_0" Grid.Row="3" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_3_1" Grid.Row="3" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_3_2" Grid.Row="3" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_3_3" Grid.Row="3" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
-        <Ellipse Grid.Row="4" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="4" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="4" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="4" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
+        <Ellipse Name="Ellipse_4_0" Grid.Row="4" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_4_1" Grid.Row="4" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_4_2" Grid.Row="4" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_4_3" Grid.Row="4" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
-        <Ellipse Grid.Row="5" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="5" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="5" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="5" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
+        <Ellipse Name="Ellipse_5_0" Grid.Row="5" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_5_1" Grid.Row="5" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_5_2" Grid.Row="5" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_5_3" Grid.Row="5" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
-        <Ellipse Grid.Row="6" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="6" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="6" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="6" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
+        <Ellipse Name="Ellipse_6_0" Grid.Row="6" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_6_1" Grid.Row="6" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_6_2" Grid.Row="6" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_6_3" Grid.Row="6" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
-        <Ellipse Grid.Row="7" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="7" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="7" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="7" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
+        <Ellipse Name="Ellipse_7_0" Grid.Row="7" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_7_1" Grid.Row="7" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_7_2" Grid.Row="7" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_7_3" Grid.Row="7" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
-        <Ellipse Grid.Row="8" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="8" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="8" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
-        <Ellipse Grid.Row="8" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray"/>
+        <Ellipse Name="Ellipse_8_0" Grid.Row="8" Grid.Column="0"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_8_1" Grid.Row="8" Grid.Column="1"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_8_2" Grid.Row="8" Grid.Column="2"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
+        <Ellipse Name="Ellipse_8_3" Grid.Row="8" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
 
         <Rectangle Grid.Row="0" Grid.Column="4" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
@@ -120,7 +120,7 @@
         <Rectangle Grid.Row="8" Grid.Column="6" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
         <Rectangle Grid.Row="8" Grid.Column="7" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
 
-        <Button Content="Vyhodnotit" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338"/>
+        <Button Content="Vyhodnotit" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338" IsEnabled="False"/>
         <Button Content="Nová hra" Grid.ColumnSpan="8" HorizontalAlignment="Left" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338" Grid.Column="4" Margin="56,0,0,0"/>
     </Grid>
 </Window>

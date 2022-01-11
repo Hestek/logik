@@ -24,5 +24,40 @@ namespace logikhra
         {
             InitializeComponent();
         }
+
+        private void EllipseMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Ellipse Ellipse = (Ellipse)sender;
+
+            if (Ellipse.Fill == Brushes.Gray)
+            {
+                Ellipse.Fill = Brushes.Red;
+            }
+            else if (Ellipse.Fill == Brushes.Red)
+            {
+                Ellipse.Fill = Brushes.Green;
+            }
+            else if (Ellipse.Fill == Brushes.Green)
+            {
+                Ellipse.Fill = Brushes.Blue;
+            }
+            else if (Ellipse.Fill == Brushes.Blue)
+            {
+                Ellipse.Fill = Brushes.Yellow;
+            }
+            else if (Ellipse.Fill == Brushes.Yellow)
+            {
+                Ellipse.Fill = Brushes.Orange;
+            }
+            else if (Ellipse.Fill == Brushes.Orange)
+            {
+                Ellipse.Fill = Brushes.Purple;
+            }
+            else if (Ellipse.Fill == Brushes.Purple)
+            {
+                Ellipse.Fill = Brushes.Red;
+            }
+        }
     }
 }
+
