@@ -263,8 +263,46 @@ namespace logikhra
             }
             return Brushes.Red;
         }
-        
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //1. varianta
+            int PocetCernych = 0;
+            if (Ellipse_0_0.Fill == barva1)
+            {
+                PocetCernych++;
             }
+            if (Ellipse_0_1.Fill == barva2)
+            {
+                PocetCernych++;
+            }
+            if (Ellipse_0_2.Fill == barva3)
+            {
+                PocetCernych++;
+            }
+            if (Ellipse_0_3.Fill == barva4)
+            {
+                PocetCernych++;
+            }
+            if (PocetCernych > 0)
+            {
+                Rectangle_0_0.Fill = Brushes.Black;
+            }
+            if (PocetCernych > 1)
+            {
+                Rectangle_0_1.Fill = Brushes.Black;
+            }
+            if (PocetCernych > 2)
+            {
+                Rectangle_0_2.Fill = Brushes.Black;
+            }
+            if (PocetCernych > 3)
+            {
+                Rectangle_0_3.Fill = Brushes.Black;
+                MessageBox.Show("VYHRÁL JSI!");
+            }
+        }
     }
+}
 
 

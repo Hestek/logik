@@ -75,10 +75,10 @@
         <Ellipse Name="Ellipse_8_3" Grid.Row="8" Grid.Column="3"  HorizontalAlignment="Center" Height="40"  Stroke="Black" VerticalAlignment="Center" Width="40" Fill="Gray" MouseDown="EllipseMouseDown"/>
 
 
-        <Rectangle Grid.Row="0" Grid.Column="4" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
-        <Rectangle Grid.Row="0" Grid.Column="5" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
-        <Rectangle Grid.Row="0" Grid.Column="6" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
-        <Rectangle Grid.Row="0" Grid.Column="7" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
+        <Rectangle Name="Rectangle_0_0" Grid.Row="0" Grid.Column="4" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
+        <Rectangle Name="Rectangle_0_1" Grid.Row="0" Grid.Column="5" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
+        <Rectangle Name="Rectangle_0_2" Grid.Row="0" Grid.Column="6" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
+        <Rectangle Name="Rectangle_0_3" Grid.Row="0" Grid.Column="7" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
 
         <Rectangle Grid.Row="1" Grid.Column="4" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
         <Rectangle Grid.Row="1" Grid.Column="5" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
@@ -120,7 +120,7 @@
         <Rectangle Grid.Row="8" Grid.Column="6" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
         <Rectangle Grid.Row="8" Grid.Column="7" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Center" Width="40"  Fill="Gray" />
 
-        <Button Content="Vyhodnotit" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338" IsEnabled="False"/>
+        <Button Content="Vyhodnotit" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338" IsEnabled="False" Click="Button_Click"/>
         <Button Content="Nová hra" Grid.ColumnSpan="8" HorizontalAlignment="Left" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338" Grid.Column="4" Margin="56,0,0,0"/>
     </Grid>
 </Window>
