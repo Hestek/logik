@@ -128,108 +128,10 @@ namespace logikhra
 
         private void NastavBarvyPC()
         {
-            Random random = new Random();
-            int cislo = random.Next(1, 7);
-
-            if (cislo == 1)
-            {
-                barva1 = Brushes.Red;
-            }
-            else if (cislo == 2)
-            {
-                barva1 = Brushes.Green;
-            }
-            else if (cislo == 3)
-            {
-                barva1 = Brushes.Blue;
-            }
-            else if (cislo == 4)
-            {
-                barva1 = Brushes.Yellow;
-            }
-            else if (cislo == 5)
-            {
-                barva1 = Brushes.Orange;
-            }
-            else if (cislo == 6)
-            {
-                barva1 = Brushes.Purple;
-            }
-
-            if (cislo == 1)
-            {
-                barva2 = Brushes.Red;
-            }
-            else if (cislo == 2)
-            {
-                barva2 = Brushes.Green;
-            }
-            else if (cislo == 3)
-            {
-                barva2 = Brushes.Blue;
-            }
-            else if (cislo == 4)
-            {
-                barva2 = Brushes.Yellow;
-            }
-            else if (cislo == 5)
-            {
-                barva2 = Brushes.Orange;
-            }
-            else if (cislo == 6)
-            {
-                barva2 = Brushes.Purple;
-            }
-
-            if (cislo == 1)
-            {
-                barva3 = Brushes.Red;
-            }
-            else if (cislo == 2)
-            {
-                barva3 = Brushes.Green;
-            }
-            else if (cislo == 3)
-            {
-                barva3 = Brushes.Blue;
-            }
-            else if (cislo == 4)
-            {
-                barva3 = Brushes.Yellow;
-            }
-            else if (cislo == 5)
-            {
-                barva3 = Brushes.Orange;
-            }
-            else if (cislo == 6)
-            {
-                barva3 = Brushes.Purple;
-            }
-
-            if (cislo == 1)
-            {
-                barva4 = Brushes.Red;
-            }
-            else if (cislo == 2)
-            {
-                barva4 = Brushes.Green;
-            }
-            else if (cislo == 3)
-            {
-                barva4 = Brushes.Blue;
-            }
-            else if (cislo == 4)
-            {
-                barva4 = Brushes.Yellow;
-            }
-            else if (cislo == 5)
-            {
-                barva4 = Brushes.Orange;
-            }
-            else if (cislo == 6)
-            {
-                barva4 = Brushes.Purple;
-            }
+            barva1 = ZiskejBarvu();
+            barva2 = ZiskejBarvu();
+            barva3 = ZiskejBarvu();
+            barva4 = ZiskejBarvu();
         }
 
         private Brush ZiskejBarvu()
@@ -264,8 +166,12 @@ namespace logikhra
             return Brushes.Red;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BtnVyhodnotit_Click(object sender, RoutedEventArgs e)
         {
+            Rectangle_0_0.Fill = Brushes.Gray;
+            Rectangle_0_1.Fill = Brushes.Gray;
+            Rectangle_0_2.Fill = Brushes.Gray;
+            Rectangle_0_3.Fill = Brushes.Gray;
             //1. varianta
             int PocetCernych = 0;
             if (Ellipse_0_0.Fill == barva1)
@@ -301,6 +207,11 @@ namespace logikhra
                 Rectangle_0_3.Fill = Brushes.Black;
                 MessageBox.Show("VYHRÁL JSI!");
             }
+        }
+
+        private void BtnNovaHra_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

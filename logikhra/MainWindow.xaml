@@ -120,7 +120,7 @@
         <Rectangle Grid.Row="8" Grid.Column="6" HorizontalAlignment="Center" Height="60" Stroke="Black" VerticalAlignment="Center" Width="60"  Fill="Gray" />
         <Rectangle Grid.Row="8" Grid.Column="7" HorizontalAlignment="Center" Height="60" Stroke="Black" VerticalAlignment="Center" Width="60"  Fill="Gray" />
 
-        <Button Content="Vyhodnotit" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338" IsEnabled="True" Click="Button_Click"/>
-        <Button Content="Nová hra" Grid.ColumnSpan="8" HorizontalAlignment="Left" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338" Grid.Column="4" Margin="56,0,0,0"/>
+        <Button Name="BtnVyhodnotit"  Content="Vyhodnotit" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338" IsEnabled="True" Click="BtnVyhodnotit_Click"/>
+        <Button Name="BtnNovaHra" Content="Nová hra" Grid.ColumnSpan="8" HorizontalAlignment="Left" VerticalAlignment="Center" Height="45" Grid.Row="9" Width="338" Grid.Column="4" Margin="56,0,0,0" Click="BtnNovaHra_Click"/>
     </Grid>
 </Window>
