@@ -30,6 +30,7 @@ namespace logikhra
             NastavVariantu0();
             NastavBarvyPC();
             ZiskejBarvu();
+            Title = $"{barva1} - {barva2} - {barva3} - {barva4}";
         }
 
         private void EllipseMouseDown(object sender, MouseButtonEventArgs e)
