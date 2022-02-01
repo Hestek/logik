@@ -175,21 +175,38 @@ namespace logikhra
             Rectangle_0_3.Fill = Brushes.Gray;
             //1. varianta
             int PocetCernych = 0;
+            int PocetBilych = 0;
             if (Ellipse_0_0.Fill == barva1)
             {
                 PocetCernych++;
+            }
+            else if (Ellipse_0_0.Fill == barva2 || Ellipse_0_0.Fill == barva3 || Ellipse_0_0.Fill == barva4)
+            {
+                PocetBilych++;
             }
             if (Ellipse_0_1.Fill == barva2)
             {
                 PocetCernych++;
             }
+            else if (Ellipse_0_1.Fill == barva1 || Ellipse_0_1.Fill == barva3 || Ellipse_0_1.Fill == barva4)
+            {
+                PocetBilych++;
+            }
             if (Ellipse_0_2.Fill == barva3)
             {
                 PocetCernych++;
             }
+            else if (Ellipse_0_2.Fill == barva1 || Ellipse_0_2.Fill == barva2 || Ellipse_0_2.Fill == barva4)
+            {
+                PocetBilych++;
+            }
             if (Ellipse_0_3.Fill == barva4)
             {
                 PocetCernych++;
+            }
+            else if (Ellipse_0_3.Fill == barva1 || Ellipse_0_3.Fill == barva2 || Ellipse_0_3.Fill == barva3)
+            {
+                PocetBilych++;
             }
             if (PocetCernych > 0)
             {
